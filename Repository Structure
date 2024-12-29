@@ -1,0 +1,11 @@
+enhanced-password-manager/  
+│  
+├── main.py              # Main GUI application logic  
+├── mfa.py               # Multi-factor authentication (email and SMS) logic  
+├── database.py          # Database interaction logic  
+├── encryption.py        # Password encryption and decryption logic  
+├── password_utils.py    # Password generation utilities  
+├── database.db          # SQLite database (auto-created)  
+├── key.key              # Encryption key (auto-generated)  
+├── requirements.txt     # Python dependencies  
+└── README.md            # Project documentation  
