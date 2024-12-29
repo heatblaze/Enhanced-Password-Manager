@@ -4,9 +4,9 @@ from email.mime.text import MIMEText
 import smtplib
 
 # Twilio Setup (For SMS-based MFA)
-TWILIO_PHONE = '+91 8418071066'
-TWILIO_SID = 'AC6ab131ddc3cdc64c9023c1910a587c97'
-TWILIO_AUTH_TOKEN = '9e753b49f71506a2b912bb39aa544e22'
+TWILIO_PHONE = 'xx xxxxxxxxxx'
+TWILIO_SID = 'SID'
+TWILIO_AUTH_TOKEN = 'TOKEN'
 client = Client(TWILIO_SID, TWILIO_AUTH_TOKEN)
 
 # Email Setup (For Email-based MFA)
